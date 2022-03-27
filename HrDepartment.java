@@ -4,16 +4,16 @@ import com.greatlearning.model.SuperDepartment;
 
 public class HrDepartment extends SuperDepartment {
 
-	public String departmentName()
+    public String departmentName()
     {
         System.out.println( "Welcome to HR Department");
-  	    return departmentName; 
+  	 return departmentName; 
     }
     
     public String getTodaywork()
     {
         System.out.println("Fill today's Worksheet and mark your attendance");
-	    return getTodaywork;
+	return getTodaywork;
     }
  
     public String getWorkDeadline()
@@ -25,6 +25,6 @@ public class HrDepartment extends SuperDepartment {
     public String doActivity()
     {
         System.out.println("Team Lunch");
-	    return doActivity;
+	return doActivity;
     }
 }
