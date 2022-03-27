@@ -11,14 +11,14 @@ public class TechDepartment extends SuperDepartment {
 	}
 	
 	public String getTodaywork()
-    {
+        {
  	    System.out.println("Complete coding by module 1");
 	    return getTodaywork;
 	}
 	
 	public String getWorkDeadline()
 	{
-        System.out.println("Complete by EOD");
+            System.out.println("Complete by EOD");
 	    return getWorkDeadline;
 	}
         
